@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kalkulator menggunakan JavaScript by mamlik</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="kalkulator">
+        <h2 class="judul">KALKULATOR</h2>
+        <a class="brand">Malik XII-RPL</a>
+        <input type="text" id="bil1" class="bil" autocomplete="off" placeholder="Bilangan Pertama">
+        <input type="text" id="bil2" class="bil" autocomplete="off" placeholder="Bilangan Kedua">
+        <select id="operasi" class="opt">
+            <option value="tambah">+</option>
+            <option value="kurang">-</option>
+            <option value="kali">x</option>
+            <option value="bagi">/</option>
+        </select>
+        <input type="button" onclick="hitung()" value="Hitung" class="tombol">
+        <input type="text" id="hasil" class="bil" value="0">
+    </div>
+    <div class='copyright'>Copyright © 2024 M.Malik Fajar<div>
+
+    <script src="script.js"></script>
+</body>
+</html>
