@@ -4,8 +4,7 @@ body{
 }
 
 .kalkulator{
- width: 435px;
- height: 530px;
+ width: 335px;
  background: #7a5122;
  margin: 100px auto;
  padding: 10px 20px 50px 20px;
@@ -14,7 +13,7 @@ body{
 }
 
 .bil{
- width: 400px;
+ width: 300px;
  margin: 5px;
  border: none;
  font-size: 16pt;
